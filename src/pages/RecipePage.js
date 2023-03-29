@@ -1,7 +1,7 @@
 import Header from '../components/Header';
 import { my_recipe } from '../recipe';
 import { my_recipe2 } from '../recipe';
-import Footer from '../components/Footer';
+
  
 const RecipePage = () => {
   let recipe_id = window.location.pathname.split('/')[2];
@@ -55,7 +55,7 @@ const RecipePage = () => {
           </ol>
         </div>
          
-        <Footer />
+        
       </div>
     </div>
   );

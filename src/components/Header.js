@@ -4,13 +4,13 @@ const Header = () => {
   return (
     <div className="header-container">
       <div className="header">
-        <h1 className="header-title">Recipe Boutique</h1>
-        <p>"The Hub For Easy Recipes"</p>
+        <img src="img/Logo.svg" className="logo" alt="" />
+        
       </div>
       <div className="header-links">
         <Link className="header-items" to="/">Home</Link>
-        <Link className="header-items" to="/community">Community</Link>
-        <Link className="header-items" to="/recipe">Recipe</Link>
+        <Link className="header-items" to="/About">About</Link>
+        <Link className="header-items" to="/recipe">Recipes</Link>
       </div>
     </div>
   );

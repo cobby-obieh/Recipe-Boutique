@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import { my_recipe } from "../recipe";
 import { my_recipe2 } from "../recipe";
-import Footer from "../components/Footer";
+
  
 const RecipeListPage = () => {
   return (
@@ -47,7 +47,7 @@ const RecipeListPage = () => {
 
           
         </div>
-        <Footer />
+        
       </div>
 
 

@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import Footer from "../components/Footer";
+
  
 const IndexPage = () => {
   return (
@@ -8,11 +8,10 @@ const IndexPage = () => {
       <div className="hero-container">
         <img src="./img/header.jpg" className="hero-image" alt="" />
         <div className="inner-hero-container">
-          <h1 className="hero-title">Recipe Boutique</h1>
+          <h1 className="hero-title">Welcome To Recipe Boutique</h1>
           <p className="hero-content-paragraph">What would you do if you have a thousand receipes just right in your pocket?</p>
           <div className="hero-button-container">
-            <button className="hero-button">Learn More</button>
-            <button className="hero-button">Foodary Community</button>
+            
           </div>
         </div>
       </div>
@@ -32,7 +31,7 @@ const IndexPage = () => {
             <p className="element-paragraph">Contributed by an amazing community of foodies. With hundreds of cuisines curated and tens of recipes created each day, start cooking and experience what you can do with your kitchen!</p>
           </div>
         </div>
-        <Footer />
+       
       </div>
       
     </div>

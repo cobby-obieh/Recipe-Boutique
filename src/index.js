@@ -10,7 +10,7 @@ import {
 import IndexPage from './pages/IndexPage';
 import RecipeListPage from './pages/RecipeListPage';
 import RecipePage from './pages/RecipePage';
-import CommunityPage from './pages/CommunityPage';
+import AboutUs from './pages/AboutUs';
  
 const router = createBrowserRouter([
  {
@@ -26,8 +26,8 @@ const router = createBrowserRouter([
     element: <RecipePage />,
    },
    {
-      path: "/community",
-      element: <CommunityPage />,
+      path: "/About",
+      element: <AboutUs />,
      },
  
 ]);
