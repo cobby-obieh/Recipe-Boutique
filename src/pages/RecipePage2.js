@@ -13,7 +13,7 @@ const RecipePage2 = () => {
           <div style={{marginTop:"100px"}} className="inner-container">
             <h1>{my_recipe2[recipe_id].name}</h1>
             <p>Preparation Time: {my_recipe2[recipe_id].preparation_time} | Servings: {my_recipe2[recipe_id].servings} pax</p>
-            <img src="/img/Gari.jpg" alt="" className="recipe-image2"/>
+            <img src="./img/Etor.svg" alt="" className="recipe-image2"/>
             <h3>Ingredients:</h3>
             <ul>
               {my_recipe2[recipe_id].ingredients.map((ingredient) => {

@@ -19,15 +19,15 @@ const IndexPage = () => {
       <div className="container">
         <div className="inner-container">
           <div className="element-items">
-            <img src="./img/icon1.svg" className="element-image" alt="" />
+            <img src="./img/images.svg" className="element-image" alt="" />
             <p className="element-paragraph">Contributed by an amazing community of foodies. With hundreds of cuisines curated and tens of recipes created each day, start cooking and experience what you can do with your kitchen!</p>
           </div>
           <div className="element-items">
             <p className="element-paragraph">Contributed by an amazing community of foodies. With hundreds of cuisines curated and tens of recipes created each day, start cooking and experience what you can do with your kitchen!</p>
-            <img src="./img/icon2.svg" className="element-image" alt="" />
+            <img src="./img/bigstock.svg" className="element-image" alt="" />
           </div>
           <div className="element-items">
-            <img src="./img/icon3.svg" className="element-image" alt="" />
+            <img src="./img/SHB.svg" className="element-image" alt="" />
             <p className="element-paragraph">Contributed by an amazing community of foodies. With hundreds of cuisines curated and tens of recipes created each day, start cooking and experience what you can do with your kitchen!</p>
           </div>
         </div>
