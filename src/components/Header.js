@@ -5,7 +5,6 @@ const Header = () => {
     <div className="header-container">
       <div className="header">
         <img src="img/Logo.svg" className="logo" alt="" />
-        
       </div>
       <div className="header-links">
         <Link className="header-items" to="/">Home</Link>

@@ -9,7 +9,7 @@ const IndexPage = () => {
         <img src="./img/header.jpg" className="hero-image" alt="" />
         <div className="inner-hero-container">
           <h1 className="hero-title">Welcome To Recipe Boutique</h1>
-          <p className="hero-content-paragraph">What would you do if you have a thousand receipes just right in your pocket?</p>
+          <p className="hero-content-paragraph">What would you do if you had a thousand receipes just right in your pocket?</p>
           <div className="hero-button-container">
             
           </div>
